@@ -1,38 +1,25 @@
-# .
+# JM LiNX - Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+### Preview
 
-## Recommended IDE Setup
+![Login](./public/screenshots/login.png)
+![Dashboard](./public/screenshots/dashboard.png)
+![Courses](./public/screenshots/courses.png)
+![Assignments](./public/screenshots/assignments.png)
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Setup
 
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 pnpm dev
 ```
 
-### Compile and Minify for Production
+### Scripts
 
-```sh
-pnpm build
-```
+- `pnpm build` (Production build)
+- `pnpm format` (Prettier)
+- `pnpm preview` (Local preview)
+
+### Tech Stack
+
+- Vue 3, Vite, Tailwind CSS, DaisyUI, Pinia
